@@ -1,28 +1,32 @@
 # How the Internet Works - A Brain Dump
 ## (or "What happens when I go to www.google.com")
 
-### Author: **bourbon**
+## Author: **bourbon**
 
-#### Introduction
+### Introduction
 
 TODO: Put more things here
 
 I will focus on the Linux platform; specifically CentOS 6.7 x64.
 
-#### Prerequisite Information
+***
 
-##### OSI Model
+### Prerequisite Information
+
+#### OSI Model
 By far, the most boring part of this whole paper but it must be done.
 
 Layers:
 
-7. Application
-6. Presentation
-5. Session
-4. Transport
-3. Network
-2. Data Link
+TODO: figure out how to reverse this list (markdown doesn't like reverse numeric lists)
+
 1. Physical
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
 
 As we move down the OSI model (from 7 to 1) our data gets encapsulated.  This is an important concept to understand because it happens all the time and it happens multiple times per network "conversation".
 
@@ -42,7 +46,7 @@ The best analogy for this would be wrapping a preseant for a friend.  Except, yo
 \-----------------/
 ```
 
-###### Brief summary of each:
+##### Brief summary of each:
 1. **Physical** - Cable/Medium - Literally 1's and 0's travelling over a medium (ie. cat-5, fiber, etc.)
     Commonly found types of cable:
     *  Cat(egory)-5 Ethernet - four variably twisted pairs of copper (variably twisting prevents signal attenuation between the pairs)
@@ -65,16 +69,23 @@ The best analogy for this would be wrapping a preseant for a friend.  Except, yo
 
 7. **Application** - Interface between the software and system/API calls used to access the network
 
+***
 
-#### Core Information
+### Core Information
 
-##### Generic new connection flow
+#### Generic new connection flow
 
-##### TCP
+***
 
-##### UDP
+#### TCP
 
-##### www.google.com example
+***
+
+#### UDP
+
+***
+
+#### www.google.com example
 
 1. Enter URL in browser
 2. Firefox disects URL
@@ -99,25 +110,4 @@ The best analogy for this would be wrapping a preseant for a friend.  Except, yo
     * HTTP GET request for the document above (/maps)
     * A blob of HTML (among other things (JavaScript, CSS, etc.)) is the result of this section
 5. Render HTML
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
